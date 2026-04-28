@@ -1,10 +1,10 @@
-# 🎲 Prop Firm Challenges as Options — A Monte Carlo Pricing Framework
+# Prop Firm Challenges as Options — A Monte Carlo Pricing Framework
 
 A quantitative finance project that models **proprietary trading firm evaluation challenges** as **down-and-out cash-or-nothing call options**, priced via Monte Carlo simulation. Using a strict 0-EV strategy as the underlying process, the analysis derives pass probabilities, expected withdrawal streams, ROI, and break-even conditions — with no trading edge assumed.
 
 ---
 
-## 💡 Core Idea
+## Core Idea
 
 A prop firm challenge is structurally equivalent to a **barrier option**:
 
@@ -18,11 +18,12 @@ A prop firm challenge is structurally equivalent to a **barrier option**:
 
 The central question: **is the challenge EV-positive even with zero trading edge?**
 
-> The answer depends entirely on whether the fee is below the actuarially fair break-even — the same logic as buying a cheap out-of-the-money option.
+> The answer depends entirely on whether the fee is below the actuarially fair break-even this is the same logic as buying a cheap out-of-the-money option.
 
+[Click Here to view the Project](monte_carlo.ipynb)
 ---
 
-## 📊 Key Results
+## Key Results
 
 Using a 1-step $10,000 challenge at a $95 fee with a 0-EV strategy (50% win rate, 1:1 R:R):
 
@@ -40,18 +41,18 @@ Using a 1-step $10,000 challenge at a $95 fee with a 0-EV strategy (50% win rate
 
 ---
 
-## 🔬 What's Covered
+## What's Covered
 
-- **Theoretical framework** — rigorous options analogy with full mathematical derivations (gambler's ruin, barrier problems, first-passage probabilities)
+- **Theoretical framework** — rigorous options analogy with full mathematical derivations.
 - **Phase 1 simulation** — 100,000 Monte Carlo paths of the challenge phase (pass rate, days to completion, equity path distributions)
-- **Phase 2 simulation** — 50,000 funded account paths modelling the withdrawal stream as a finite-horizon annuity with path-dependent knock-out
+- **Phase 2 simulation** — 50,000 funded account paths modelling the withdrawal stream as a finite-horizon annuity
 - **ROI & break-even analysis** — EV per attempt, multi-attempt geometric model, break-even fee
 - **Sensitivity analysis** — pass rate and EV heatmaps across win rate × risk-per-trade combinations
 - **Options Greeks analogy** — Delta, Gamma, Theta, Vega and Rho mapped to their prop firm equivalents
 
 ---
 
-## ⚙️ Parameters (Configurable)
+## Parameters (Configurable)
 
 | Parameter | Default | Description |
 |---|---|---|
@@ -67,7 +68,7 @@ Using a 1-step $10,000 challenge at a $95 fee with a 0-EV strategy (50% win rate
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ```bash
 pip install numpy scipy matplotlib tabulate
@@ -75,7 +76,7 @@ pip install numpy scipy matplotlib tabulate
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. Clone the repository:
    ```bash
@@ -93,7 +94,7 @@ pip install numpy scipy matplotlib tabulate
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Package | Purpose |
 |---|---|
@@ -104,7 +105,7 @@ pip install numpy scipy matplotlib tabulate
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -114,7 +115,7 @@ pip install numpy scipy matplotlib tabulate
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is for **educational and illustrative purposes only**. It does not constitute financial advice. All simulations assume a simplified trading model; real-world prop firm rules vary by provider.
 
