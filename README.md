@@ -1,6 +1,6 @@
 # Prop Firm Challenges as Options; A Monte Carlo Pricing Framework
 
-A quantitative finance project that models **proprietary trading firm evaluation challenges** as **down-and-out cash-or-nothing call options**, priced via Monte Carlo simulation. Using a strict 0-EV strategy as the underlying process, the analysis derives pass probabilities, expected withdrawal streams, ROI, and break-even conditions — with no trading edge assumed.
+A quantitative finance project that models **proprietary trading firm evaluation challenges** as **down-and-out cash-or-nothing call options**, priced via Monte Carlo simulation. Using a strict 0-EV strategy as the underlying process, the analysis derives pass probabilities, expected withdrawal streams, ROI, and break-even conditions, assuming no trading edge.
 
 ---
 
