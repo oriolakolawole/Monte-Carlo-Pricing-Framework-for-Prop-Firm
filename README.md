@@ -20,7 +20,7 @@ The central question: **is the challenge EV-positive even with zero trading edge
 
 > The answer depends entirely on whether the fee is below the actuarially fair break-even this is the same logic as buying a cheap out-of-the-money option.
 
-[Click Here to view the Project](monte_carlo.ipynb)
+> [Click Here to view the Project](monte_carlo.ipynb)
 ---
 
 ## Key Results
