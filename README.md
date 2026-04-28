@@ -119,8 +119,3 @@ pip install numpy scipy matplotlib tabulate
 
 This project is for **educational and illustrative purposes only**. It does not constitute financial advice. All simulations assume a simplified trading model; real-world prop firm rules vary by provider.
 
----
-
-## 📚 Background
-
-This project applies financial derivatives theory — specifically **barrier option pricing** and the **gambler's ruin problem** — to evaluate the economic structure of proprietary trading firm challenges.
