@@ -34,7 +34,7 @@ Using a 1-step $10,000 challenge at a $95 fee with a 0-EV strategy (50% win rate
 | Average days to pass | **~35 trading days** |
 | Average funded account withdrawal (12-month horizon) | **~$618** |
 | Expected value per attempt | **~+$127** |
-| ROI per attempt | **~+139%** |
+| ROI per attempt | **~+133%** |
 | Break-even challenge fee | **~$222** |
 
 **The challenge is EV-positive at the $95 fee even with zero trading edge**, driven by 105x capital leverage on the challenge fee.
